@@ -1,0 +1,8 @@
+
+/archive.html
+/atom.xml
+/categories.html
+/index.html
+/pages.html
+/sitemap.txt
+/tags.html
