@@ -1,12 +1,32 @@
 ---
 theme :
- name : kkk
+name : kkk
 
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+
+p.small {
+    line-height: 70%; }
+
+p.big {
+    line-height: 200%;
+    font-size: 110%;
+    width: 80%;
+    color: #333333;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif; }
+
+ul {
+     font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+     font-size: 110%;
+     line-height: 200%;
+}
+
+
+</style>
 	
   <title>Ruby On Rails Blog</title>
   <meta charset="utf-8">
@@ -28,7 +48,7 @@ theme :
         <div class="col-sm-7">
         
         
-        <p>{{ content }}</p>
+        {{ content }}
 <br>
 <br>
 <br>
@@ -40,7 +60,10 @@ theme :
       </div>
    <br>
    <br>   
+   <br>
       <div class="col-sm-3">       
+        <br>
+        <br>
         {% include sidebar.html %}
       </div>
      
